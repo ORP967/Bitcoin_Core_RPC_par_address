@@ -74,8 +74,7 @@ while latest_block > 710000:
     for txid in transactions:
 
         # We are going to search for each address and it's value, at the same time skip through any errors we might find.
-        # Be ready for a bunch of addresses to print on your screen. If you want to skip this comment out line 84.
-        # Example: #print(str(address)+"'\t"+str(value))
+        # Be ready for a bunch of addresses to print on your screen. If you want to skip this, comment out line 85.
         # You guys are programmers so obviously I did not need to add the above example.
         try:
             value=txid['vout'][0]['value']
