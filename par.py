@@ -103,30 +103,29 @@ while latest_block > 710000:
             # -----------------------------------------------------------------------------------------------------------
 
             # In this following loop I want to see any addresses that have 6.25 Bitcoins in them.
-            #if value == 2:
-            # If you want to find a range, let's say from 6 - 6.5 bitcoins you would change the above loop to:
-            #if 6 <= value <=7:
-            
-                # This next step creates a .csv file to use on Excel. It will use the block's number as the Title.
-            #    f=open(str(latest_block)+'.csv','a+')
-                # ------------------------------------------------------------------------------------------------------------
+            #if value == 6.25:
 
                 # Print the results on the screen. If you don't want to see them just comment this bottom line out.
                 #print(str(address)+"'\t"+str(value))
                 # ------------------------------------------------------------------------------------------------------
 
+                # This next step creates a .csv file to use on Excel. It will use the block's number as the Title.
+                #f=open(str(latest_block)+'.csv','a+')
+                # ------------------------------------------------------------------------------------------------------------
                 # Write the information found to the .csv file
-            #    f.write(str(address)+"'\t"+str(value)+'\n')
+                #f.write(str(address)+"'\t"+str(value)+'\n')
                 # ------------------------------------------------------------------------------------------------------
-
                 # Close the .csv file when it is done.
-            #    f.close()
+                #f.close()
                 # ----------------------------------------------------------------------------------------------------------------
             
             # My way of keeping memory usage to a minimum.
             #else:
                 #value, address = 0, 0
                 #continue
+            
+            # If you want to find a range, let's say from 6 - 6.5 bitcoins you would change the above loop to:
+            #if 6 <= value <=7:
             # -----------------------------------------------------------------------------------------------------------
 
         # If any errors are encountered the loop will just continue
