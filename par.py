@@ -124,7 +124,7 @@ while latest_block > 710000:
                 #value, address = 0, 0
                 #continue
             
-            # If you want to find a range, let's say from 6 - 6.5 bitcoins you would change the above loop to:
+            # If you want to find a range, let's say from 6 - 6.5 bitcoins you would change the above loop on line 106 to:
             #if 6 <= value <=7:
             # -----------------------------------------------------------------------------------------------------------
 
